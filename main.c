@@ -5,11 +5,14 @@
 
 
 int main(){
-    printf("Hallo World\n");
-    printf("Hallo World\n");
-    printf("Hallo World\n");
-    printf("Hallo World\n");
-    printf("Hallo World\n");
+    for (int i = 0; i < 10; ++i) {
+        printf("Hallo World\n");
+        printf("Hallo World\n");
+        printf("Hallo World\n");
+        printf("Hallo World\n");
+        printf("Hallo World\n");
+    }
+
 
     return 0;
 }
